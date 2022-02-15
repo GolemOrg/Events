@@ -1,6 +1,6 @@
 package events
 
-import org.junit.jupiter.api.Test
+import org.junit.Test
 
 sealed class PlayerEvent {
     object Join : PlayerEvent()

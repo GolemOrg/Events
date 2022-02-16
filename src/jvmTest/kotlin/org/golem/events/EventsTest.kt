@@ -1,4 +1,4 @@
-package events
+package org.golem.events
 
 import org.junit.Test
 

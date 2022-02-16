@@ -1,4 +1,4 @@
-package events
+package org.golem.events
 
 class EventBus<T> {
     private val listeners: MutableMap<Any, (T) -> Unit> = mutableMapOf()

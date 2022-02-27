@@ -1,3 +1,3 @@
 
-rootProject.name = "events-kt"
+rootProject.name = "events"
 

@@ -1,4 +1,4 @@
-# events-kt
+# Events
 
 A small event bus system used as a way to push/pull data from a central location.
 
@@ -11,7 +11,7 @@ bus.listen {
     println("Received number: $it")
 }
 
-for(i in 1.100) {
+for(i in 1..100) {
     bus.dispatch(i)
 }
 ```
